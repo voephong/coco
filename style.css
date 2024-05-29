@@ -1,0 +1,119 @@
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style table header */
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style table rows on hover */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Style table cells */
+td {
+  padding: 8px;
+}
+
+/* Style form input fields */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style form submit button */
+input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Change submit button color on hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container */
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form inputs */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login button */
+.login-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Login button hover effect */
+.login-container button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Error message */
+.login-container .error-message {
+    color: red;
+    margin-bottom: 10px;
+}
